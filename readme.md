@@ -63,3 +63,15 @@ Re-enter new password:
 sudo mysql
 
 ```
+3. Installing PHP and Configuring Nginx to use the PHP Processor
+#### Let me remind you that make sure you installed Nginx successfully and mysql is running without any challenge. So since Nginx doesnot contain native PHP processing like other web server you need to install php-fpm (This is very important which stands for fastCGI process manager)
+##### Add Ubuntu universe repository before installing php fpm by typing
+```
+sudo add-apt-repository universe
+
+```
+#### Then after install php-fpm and php mysql
+```
+sudo apt install php-fpm php-mysql
+
+```
