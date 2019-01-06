@@ -8,12 +8,12 @@
 sudo apt update
 sudo apt install nginx
 ```
-~~If you have the firewall running, it is important to allow connections to Nginx so enable it by typing.~~
+#### If you have the firewall running, it is important to allow connections to Nginx so enable it by typing
 
 ```
 sudo ufw allow 'Nginx HTTP'
 ```
-####After that you can verify the changes by running 
+#### After that you can verify the changes by running 
 
 ```
 sudo ufw status'
